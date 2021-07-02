@@ -11,4 +11,4 @@
 5. [Codepen](https://codepen.io/ezzik/pen/wvwmmbe) (this is done on the WebCademy course)
 6. As I wrote above, I attended some webinars, YouTube channels and interactive courses. For me, this is the first step to my dream. Although also in school I had a website on Ucoz, on which I changed color palette, content, added different applications (but now I don’t remember what they were written on).
 7. Fifth year of University (non-programming), interactive course by HTMLacademy, various webinars (WebCademy, Glo Academy), course by FreeCodeCamp (not completly)
-8. I was learnd English in school. Now I rate my level as A2
+8. I was learnd English in school. Now I rate my level as A2(Elementary level of English).
