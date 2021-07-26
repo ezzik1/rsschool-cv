@@ -16,11 +16,6 @@ header {
 }
 
 img {
-    float: right;
-    width: 200px;
-    height: 200px;
-    border-radius: 15px;
-    box-shadow: 0 0 10px #000000;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
@@ -31,16 +26,15 @@ img:hover {
 }
 
 li {
-    width: 964px;
     font-family: 'Gayathri', sans-serif;
-    font-size: 16pt;
-    line-height: 1.5em;
+    font-size: 14pt;
+    line-height: 1em;
 }
 
 a {
     color: #5AB7F4;
-    -webkit-transition: color 0.4s ease;
-    transition: color 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
 }
 
 a:hover {
@@ -57,7 +51,7 @@ footer {
     font-family: 'Gayathri', sans-serif;
     font-size: 14pt;
     font-weight: bold;
-    background: rgba(255, 255, 255, 0.75);
+    background: rgba(255, 255, 255, 0.25);
 }
 
 footer img {
@@ -67,4 +61,50 @@ footer img {
     border-radius: inherit;
     box-shadow: none;
     float: none;
+}
+
+nav {
+    height: 2rem;
+}
+
+ul.header_nav {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+ul.header_nav li:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+ul.header_nav li {
+    padding: 0 .2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul.header_nav li a {
+    text-decoration: none;
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    float: right;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #000000;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
 }
